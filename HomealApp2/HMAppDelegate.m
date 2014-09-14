@@ -7,13 +7,48 @@
 //
 
 #import "HMAppDelegate.h"
+#import "HMFilterViewController.h"
+#import "HMTabBarViewController.h"
+#import "HMHomeViewController.h"
+#import "MMDrawerVisualState.h"
 
 @implementation HMAppDelegate
+
+-(BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    UIStoryboard *mainStroryboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    
+    HMFilterViewController *filterController = (HMFilterViewController *)[mainStroryboard instantiateViewControllerWithIdentifier:@"FilterViewControllerID"];
+    HMTabBarViewController *tabBarViewController = (HMTabBarViewController *)[mainStroryboard instantiateViewControllerWithIdentifier:@"TabBarViewControllerID"];
+    
+    self.drawController = [[MMDrawerController alloc] initWithCenterViewController:tabBarViewController leftDrawerViewController:filterController];
+    
+    [self.drawController setMaximumLeftDrawerWidth:240.0];
+    [self.drawController setOpenDrawerGestureModeMask:MMOpenDrawerGestureModeAll];
+    [self.drawController setCloseDrawerGestureModeMask:MMCloseDrawerGestureModeAll];
+    
+    [self.drawController setDrawerVisualStateBlock:[MMDrawerVisualState slideAndScaleVisualStateBlock]];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [self.window setRootViewController:self.drawController];
+    
+    return YES;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [Parse setApplicationId:@"vZ30q80vfjuDtW2j8dBg60Ttqlt2frsiZWrsDcnE"
+                  clientKey:@"XsS3wG5g5xno4tDLKbzgWhRYGrXMW9dURkUsZWmc"];
+    [PFFacebookUtils initializeFacebook];
+    
+    [self.window makeKeyAndVisible];
     return YES;
+}
+
+-(BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    return [FBAppCall handleOpenURL:url sourceApplication:sourceApplication];
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54528E49451445D993D77DA3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E1CADDBEEF4CEDA5D6CA5A /* libPods.a */; };
+		C05A0A6819B7298A006175C9 /* email_open.png in Resources */ = {isa = PBXBuildFile; fileRef = C05A0A6719B7298A006175C9 /* email_open.png */; };
+		C05A0A6A19B72D67006175C9 /* email-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C05A0A6919B72D67006175C9 /* email-icon.png */; };
+		C05A0A6C19B7306C006175C9 /* email-icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = C05A0A6B19B7306C006175C9 /* email-icon2.png */; };
+		C0801E11199CFCE60059E7E8 /* HMMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0801E10199CFCE60059E7E8 /* HMMeViewController.m */; };
+		C0801E14199CFD060059E7E8 /* HMOrdersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0801E13199CFD060059E7E8 /* HMOrdersViewController.m */; };
+		C0801E17199CFD960059E7E8 /* HMReviewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0801E16199CFD960059E7E8 /* HMReviewsViewController.m */; };
+		C0801E1A199CFDA50059E7E8 /* HMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0801E19199CFDA50059E7E8 /* HMHomeViewController.m */; };
+		C0801E1D199D07A90059E7E8 /* HMTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0801E1C199D07A90059E7E8 /* HMTabBarViewController.m */; };
+		C0801E20199D72910059E7E8 /* HMNewDishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0801E1F199D72910059E7E8 /* HMNewDishViewController.m */; };
+		C0801E2819A031E70059E7E8 /* HMFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0801E2719A031E70059E7E8 /* HMFilterViewController.m */; };
 		C0BF49C1199AC8DB00CDA7C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0BF49C0199AC8DB00CDA7C4 /* Foundation.framework */; };
 		C0BF49C3199AC8DB00CDA7C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0BF49C2199AC8DB00CDA7C4 /* CoreGraphics.framework */; };
 		C0BF49C5199AC8DB00CDA7C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0BF49C4199AC8DB00CDA7C4 /* UIKit.framework */; };
@@ -14,14 +25,14 @@
 		C0BF49CD199AC8DB00CDA7C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BF49CC199AC8DB00CDA7C4 /* main.m */; };
 		C0BF49D1199AC8DB00CDA7C4 /* HMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BF49D0199AC8DB00CDA7C4 /* HMAppDelegate.m */; };
 		C0BF49D4199AC8DB00CDA7C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0BF49D2199AC8DB00CDA7C4 /* Main.storyboard */; };
-		C0BF49D7199AC8DB00CDA7C4 /* HMFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BF49D6199AC8DB00CDA7C4 /* HMFirstViewController.m */; };
-		C0BF49DA199AC8DB00CDA7C4 /* HMSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BF49D9199AC8DB00CDA7C4 /* HMSecondViewController.m */; };
 		C0BF49DC199AC8DB00CDA7C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0BF49DB199AC8DB00CDA7C4 /* Images.xcassets */; };
 		C0BF49E3199AC8DB00CDA7C4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0BF49E2199AC8DB00CDA7C4 /* XCTest.framework */; };
 		C0BF49E4199AC8DB00CDA7C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0BF49C0199AC8DB00CDA7C4 /* Foundation.framework */; };
 		C0BF49E5199AC8DB00CDA7C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0BF49C4199AC8DB00CDA7C4 /* UIKit.framework */; };
 		C0BF49ED199AC8DB00CDA7C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0BF49EB199AC8DB00CDA7C4 /* InfoPlist.strings */; };
 		C0BF49EF199AC8DB00CDA7C4 /* HomealApp2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BF49EE199AC8DB00CDA7C4 /* HomealApp2Tests.m */; };
+		C0BF49FA199AC98200CDA7C4 /* HMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BF49F9199AC98200CDA7C4 /* HMLoginViewController.m */; };
+		C0BF4A42199B1E0300CDA7C4 /* HMConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BF4A41199B1E0300CDA7C4 /* HMConstants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F565E98C76A47A093FC34DD /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		98E1CADDBEEF4CEDA5D6CA5A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C05A0A6719B7298A006175C9 /* email_open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email_open.png; sourceTree = "<group>"; };
+		C05A0A6919B72D67006175C9 /* email-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email-icon.png"; sourceTree = "<group>"; };
+		C05A0A6B19B7306C006175C9 /* email-icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email-icon2.png"; sourceTree = "<group>"; };
+		C0801E0F199CFCE60059E7E8 /* HMMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMMeViewController.h; sourceTree = "<group>"; };
+		C0801E10199CFCE60059E7E8 /* HMMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMMeViewController.m; sourceTree = "<group>"; };
+		C0801E12199CFD060059E7E8 /* HMOrdersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMOrdersViewController.h; sourceTree = "<group>"; };
+		C0801E13199CFD060059E7E8 /* HMOrdersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMOrdersViewController.m; sourceTree = "<group>"; };
+		C0801E15199CFD960059E7E8 /* HMReviewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMReviewsViewController.h; sourceTree = "<group>"; };
+		C0801E16199CFD960059E7E8 /* HMReviewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMReviewsViewController.m; sourceTree = "<group>"; };
+		C0801E18199CFDA50059E7E8 /* HMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMHomeViewController.h; sourceTree = "<group>"; };
+		C0801E19199CFDA50059E7E8 /* HMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMHomeViewController.m; sourceTree = "<group>"; };
+		C0801E1B199D07A90059E7E8 /* HMTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMTabBarViewController.h; sourceTree = "<group>"; };
+		C0801E1C199D07A90059E7E8 /* HMTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTabBarViewController.m; sourceTree = "<group>"; };
+		C0801E1E199D72910059E7E8 /* HMNewDishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMNewDishViewController.h; sourceTree = "<group>"; };
+		C0801E1F199D72910059E7E8 /* HMNewDishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMNewDishViewController.m; sourceTree = "<group>"; };
+		C0801E2619A031E70059E7E8 /* HMFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMFilterViewController.h; sourceTree = "<group>"; };
+		C0801E2719A031E70059E7E8 /* HMFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMFilterViewController.m; sourceTree = "<group>"; };
 		C0BF49BD199AC8DB00CDA7C4 /* HomealApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomealApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0BF49C0199AC8DB00CDA7C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C0BF49C2199AC8DB00CDA7C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,16 +76,16 @@
 		C0BF49CF199AC8DB00CDA7C4 /* HMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMAppDelegate.h; sourceTree = "<group>"; };
 		C0BF49D0199AC8DB00CDA7C4 /* HMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMAppDelegate.m; sourceTree = "<group>"; };
 		C0BF49D3199AC8DB00CDA7C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C0BF49D5199AC8DB00CDA7C4 /* HMFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMFirstViewController.h; sourceTree = "<group>"; };
-		C0BF49D6199AC8DB00CDA7C4 /* HMFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMFirstViewController.m; sourceTree = "<group>"; };
-		C0BF49D8199AC8DB00CDA7C4 /* HMSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMSecondViewController.h; sourceTree = "<group>"; };
-		C0BF49D9199AC8DB00CDA7C4 /* HMSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMSecondViewController.m; sourceTree = "<group>"; };
 		C0BF49DB199AC8DB00CDA7C4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C0BF49E1199AC8DB00CDA7C4 /* HomealApp2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomealApp2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0BF49E2199AC8DB00CDA7C4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C0BF49EA199AC8DB00CDA7C4 /* HomealApp2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HomealApp2Tests-Info.plist"; sourceTree = "<group>"; };
 		C0BF49EC199AC8DB00CDA7C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C0BF49EE199AC8DB00CDA7C4 /* HomealApp2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomealApp2Tests.m; sourceTree = "<group>"; };
+		C0BF49F8199AC98200CDA7C4 /* HMLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMLoginViewController.h; sourceTree = "<group>"; };
+		C0BF49F9199AC98200CDA7C4 /* HMLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMLoginViewController.m; sourceTree = "<group>"; };
+		C0BF4A40199B1E0300CDA7C4 /* HMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMConstants.h; sourceTree = "<group>"; };
+		C0BF4A41199B1E0300CDA7C4 /* HMConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMConstants.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +96,7 @@
 				C0BF49C3199AC8DB00CDA7C4 /* CoreGraphics.framework in Frameworks */,
 				C0BF49C5199AC8DB00CDA7C4 /* UIKit.framework in Frameworks */,
 				C0BF49C1199AC8DB00CDA7C4 /* Foundation.framework in Frameworks */,
+				54528E49451445D993D77DA3 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +113,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C0801E21199D72B10059E7E8 /* New Dish */ = {
+			isa = PBXGroup;
+			children = (
+				C0801E1E199D72910059E7E8 /* HMNewDishViewController.h */,
+				C0801E1F199D72910059E7E8 /* HMNewDishViewController.m */,
+			);
+			name = "New Dish";
+			sourceTree = "<group>";
+		};
+		C0801E22199D72C20059E7E8 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				C0801E0F199CFCE60059E7E8 /* HMMeViewController.h */,
+				C0801E10199CFCE60059E7E8 /* HMMeViewController.m */,
+			);
+			name = Me;
+			sourceTree = "<group>";
+		};
+		C0801E23199D72D80059E7E8 /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+				C0801E12199CFD060059E7E8 /* HMOrdersViewController.h */,
+				C0801E13199CFD060059E7E8 /* HMOrdersViewController.m */,
+			);
+			name = Orders;
+			sourceTree = "<group>";
+		};
+		C0801E24199D72E10059E7E8 /* Reviews */ = {
+			isa = PBXGroup;
+			children = (
+				C0801E15199CFD960059E7E8 /* HMReviewsViewController.h */,
+				C0801E16199CFD960059E7E8 /* HMReviewsViewController.m */,
+			);
+			name = Reviews;
+			sourceTree = "<group>";
+		};
+		C0801E25199D72EA0059E7E8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C0801E18199CFDA50059E7E8 /* HMHomeViewController.h */,
+				C0801E19199CFDA50059E7E8 /* HMHomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		C0801E2919A031ED0059E7E8 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				C0801E2619A031E70059E7E8 /* HMFilterViewController.h */,
+				C0801E2719A031E70059E7E8 /* HMFilterViewController.m */,
+			);
+			name = Filter;
+			sourceTree = "<group>";
+		};
 		C0BF49B4199AC8DA00CDA7C4 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +174,7 @@
 				C0BF49E8199AC8DB00CDA7C4 /* HomealApp2Tests */,
 				C0BF49BF199AC8DB00CDA7C4 /* Frameworks */,
 				C0BF49BE199AC8DB00CDA7C4 /* Products */,
+				7F565E98C76A47A093FC34DD /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +194,7 @@
 				C0BF49C2199AC8DB00CDA7C4 /* CoreGraphics.framework */,
 				C0BF49C4199AC8DB00CDA7C4 /* UIKit.framework */,
 				C0BF49E2199AC8DB00CDA7C4 /* XCTest.framework */,
+				98E1CADDBEEF4CEDA5D6CA5A /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,12 +205,17 @@
 				C0BF49CF199AC8DB00CDA7C4 /* HMAppDelegate.h */,
 				C0BF49D0199AC8DB00CDA7C4 /* HMAppDelegate.m */,
 				C0BF49D2199AC8DB00CDA7C4 /* Main.storyboard */,
-				C0BF49D5199AC8DB00CDA7C4 /* HMFirstViewController.h */,
-				C0BF49D6199AC8DB00CDA7C4 /* HMFirstViewController.m */,
-				C0BF49D8199AC8DB00CDA7C4 /* HMSecondViewController.h */,
-				C0BF49D9199AC8DB00CDA7C4 /* HMSecondViewController.m */,
+				C0801E2919A031ED0059E7E8 /* Filter */,
+				C0801E1B199D07A90059E7E8 /* HMTabBarViewController.h */,
+				C0801E1C199D07A90059E7E8 /* HMTabBarViewController.m */,
+				C0BF49FB199AC99500CDA7C4 /* Login */,
 				C0BF49DB199AC8DB00CDA7C4 /* Images.xcassets */,
 				C0BF49C7199AC8DB00CDA7C4 /* Supporting Files */,
+				C0801E22199D72C20059E7E8 /* Me */,
+				C0801E21199D72B10059E7E8 /* New Dish */,
+				C0801E23199D72D80059E7E8 /* Orders */,
+				C0801E24199D72E10059E7E8 /* Reviews */,
+				C0801E25199D72EA0059E7E8 /* Home */,
 			);
 			path = HomealApp2;
 			sourceTree = "<group>";
@@ -131,7 +223,12 @@
 		C0BF49C7199AC8DB00CDA7C4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C0BF4A40199B1E0300CDA7C4 /* HMConstants.h */,
+				C0BF4A41199B1E0300CDA7C4 /* HMConstants.m */,
 				C0BF49C8199AC8DB00CDA7C4 /* HomealApp2-Info.plist */,
+				C05A0A6B19B7306C006175C9 /* email-icon2.png */,
+				C05A0A6919B72D67006175C9 /* email-icon.png */,
+				C05A0A6719B7298A006175C9 /* email_open.png */,
 				C0BF49C9199AC8DB00CDA7C4 /* InfoPlist.strings */,
 				C0BF49CC199AC8DB00CDA7C4 /* main.m */,
 				C0BF49CE199AC8DB00CDA7C4 /* HomealApp2-Prefix.pch */,
@@ -157,6 +254,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C0BF49FB199AC99500CDA7C4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C0BF49F9199AC98200CDA7C4 /* HMLoginViewController.m */,
+				C0BF49F8199AC98200CDA7C4 /* HMLoginViewController.h */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,9 +270,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0BF49F2199AC8DB00CDA7C4 /* Build configuration list for PBXNativeTarget "HomealApp2" */;
 			buildPhases = (
+				20901665225E41EFAB6FD66C /* Check Pods Manifest.lock */,
 				C0BF49B9199AC8DB00CDA7C4 /* Sources */,
 				C0BF49BA199AC8DB00CDA7C4 /* Frameworks */,
 				C0BF49BB199AC8DB00CDA7C4 /* Resources */,
+				02BB7E9DB30E44F1B8451FCD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,8 +342,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C05A0A6A19B72D67006175C9 /* email-icon.png in Resources */,
 				C0BF49DC199AC8DB00CDA7C4 /* Images.xcassets in Resources */,
+				C05A0A6C19B7306C006175C9 /* email-icon2.png in Resources */,
 				C0BF49CB199AC8DB00CDA7C4 /* InfoPlist.strings in Resources */,
+				C05A0A6819B7298A006175C9 /* email_open.png in Resources */,
 				C0BF49D4199AC8DB00CDA7C4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,15 +361,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02BB7E9DB30E44F1B8451FCD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20901665225E41EFAB6FD66C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C0BF49B9199AC8DB00CDA7C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0BF4A42199B1E0300CDA7C4 /* HMConstants.m in Sources */,
+				C0801E1D199D07A90059E7E8 /* HMTabBarViewController.m in Sources */,
+				C0801E2819A031E70059E7E8 /* HMFilterViewController.m in Sources */,
 				C0BF49CD199AC8DB00CDA7C4 /* main.m in Sources */,
-				C0BF49D7199AC8DB00CDA7C4 /* HMFirstViewController.m in Sources */,
+				C0801E14199CFD060059E7E8 /* HMOrdersViewController.m in Sources */,
+				C0BF49FA199AC98200CDA7C4 /* HMLoginViewController.m in Sources */,
+				C0801E17199CFD960059E7E8 /* HMReviewsViewController.m in Sources */,
 				C0BF49D1199AC8DB00CDA7C4 /* HMAppDelegate.m in Sources */,
-				C0BF49DA199AC8DB00CDA7C4 /* HMSecondViewController.m in Sources */,
+				C0801E1A199CFDA50059E7E8 /* HMHomeViewController.m in Sources */,
+				C0801E20199D72910059E7E8 /* HMNewDishViewController.m in Sources */,
+				C0801E11199CFCE60059E7E8 /* HMMeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,12 +531,14 @@
 		};
 		C0BF49F3199AC8DB00CDA7C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F565E98C76A47A093FC34DD /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HomealApp2/HomealApp2-Prefix.pch";
 				INFOPLIST_FILE = "HomealApp2/HomealApp2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,12 +546,14 @@
 		};
 		C0BF49F4199AC8DB00CDA7C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F565E98C76A47A093FC34DD /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HomealApp2/HomealApp2-Prefix.pch";
 				INFOPLIST_FILE = "HomealApp2/HomealApp2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -463,6 +618,7 @@
 				C0BF49F4199AC8DB00CDA7C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0BF49F5199AC8DB00CDA7C4 /* Build configuration list for PBXNativeTarget "HomealApp2Tests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +627,7 @@
 				C0BF49F7199AC8DB00CDA7C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
