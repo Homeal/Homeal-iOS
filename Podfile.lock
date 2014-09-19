@@ -1,6 +1,6 @@
 PODS:
   - Bolts (1.1.2)
-  - Facebook-iOS-SDK (3.17.0):
+  - Facebook-iOS-SDK (3.18.0):
     - Bolts
   - MMDrawerController/Core (0.5.7)
   - MMDrawerController/MMDrawerVisualStates (0.5.7):
@@ -14,7 +14,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   Bolts: 2635e8698a630774689441047f3465d78c48d485
-  Facebook-iOS-SDK: f20274d809f112ba540842e2b6cbe50128d51b7b
+  Facebook-iOS-SDK: fa12c51cc57bfb6f92e47793c9d4d2c65bc92741
   MMDrawerController: c3ab7a318ddc7e2bcd133139c3161af08c6e1197
   Parse: 28c0dc54f30201a369d29a2f76c09fa43b2add16
 

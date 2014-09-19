@@ -17,9 +17,7 @@ Then install the repos by running:
 ```
 $ pod install
 ```
-After installing the repos, you should see a message saying ".....Now please use HomealApp2.xcworkspace...."
-
 
 ### Xcode
 
-Open Xcode and open the HomealApp2.xcworkspace under directory Homeal-iOS. Now you should be able to run it in the simulator.
+After installing the repos, open Xcode and open HomealApp2.xcworkspace under directory Homeal-iOS. Now you should be able to run it in the simulator.
